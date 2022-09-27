@@ -1,5 +1,3 @@
-/* @import-normalize; - это нормализация от create-react-app*/
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
@@ -11,6 +9,3 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-/* инлайн стили использовать для динамической подстановки с БД или использовать Styled Components/Emotion/JSS */
-/* extends in sass === composes in module css */

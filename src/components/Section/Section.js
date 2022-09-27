@@ -4,7 +4,7 @@ import s from './Section.module.css';
 const Section = ({ children }) => <section className={s.section}>{children}</section>;
 
 Section.propTypes = {
-  children: PropTypes.node, //node-что угодно, все, что может быть зарендерино
+  children: PropTypes.node,
 };
 
 export default Section;

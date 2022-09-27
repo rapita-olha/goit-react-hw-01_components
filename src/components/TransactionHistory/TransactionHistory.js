@@ -1,10 +1,8 @@
 import classnames from 'classnames';
-// var classnames = require('classnames');
 import PropTypes from 'prop-types';
 import s from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => (
-  // <table className={s['transaction-history']}> //дефис в ключах объекта нельзя использовать, модульные стили возвращают js объект. Дефис не использовать в названиях классов!
   <table className={s.transaction_history}>
     <thead className={s.thead}>
       <tr className={s.head_line}>
@@ -16,7 +14,6 @@ const TransactionHistory = ({ items }) => (
 
     <tbody className={s.tbody}>
       {items.map(item => (
-        /* {items.map(({ id, type, amount, currency }) => ( */
         <tr key={item.id} /*{id}*/ className={s.body_line}>
           <td className={classnames(s.td, s.td_type)}>{item.type}</td>
           <td className={s.td}>{item.amount}</td>

@@ -4,7 +4,6 @@
     0px 2px 1px rgb(0 0 0 / 20%);
 
   border-collapse: collapse;
-  /*убираем пустые промежутки между ячейками*/
   border-radius: 3px;
   overflow: hidden;
 }

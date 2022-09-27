@@ -6,9 +6,9 @@
   height: 111px;
   padding: 8px 0 8px 0px;
 
-  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
-    0px 2px 1px rgb(0 0 0 / 20%);
-  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(17, 26, 20, 0.116), 0px 1px 1px rgba(206, 221, 207, 0.14),
+    0px 2px 1px rgba(30, 47, 28, 0.2);
+  background-color: rgb(218, 181, 181);
 }
 
 .item:not(:last-child) {

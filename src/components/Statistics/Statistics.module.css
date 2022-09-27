@@ -6,8 +6,7 @@
   margin: 0 auto;
   margin-bottom: 20px;
 
-  /* background-color: #eff3f6; */
-  background-color: #e7ecf2;
+  background-color: hsl(213, 50%, 70%);
 }
 
 .box {
@@ -56,7 +55,7 @@
 .label {
   margin-bottom: 9px;
 
-  font-weight: 400;
+  font-weight: 500;
   font-size: 12px;
 }
 

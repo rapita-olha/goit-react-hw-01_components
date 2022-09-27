@@ -12,8 +12,6 @@ import friends from './data/friends.json';
 import TransactionHistory from './components/TransactionHistory/TransactionHistory';
 import transactions from './data/transactions.json';
 
-// это обычный экмоскрипт модуль, поэтому из него нужно экспортировать компонент и всегда это экспорт по умолчанию
-// дефолтный экспорт этого модуля
 const App = () => (
   <div>
     <Section>
@@ -40,5 +38,3 @@ const App = () => (
 );
 
 export default App;
-// ------------------------------------------------------------------
-// внутри самого файла компонента объявл компонент, его пропсы, а пропсы он получает там где он рендерится и данные импортировать(джейсон) так где он рендерится
